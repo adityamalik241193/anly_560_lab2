@@ -1,0 +1,32 @@
+
+public class ANLY560_Lab2 {
+
+	public static void main(String[] args) {
+		double grade1, grade2, grade3, grade4, grade5, averageGrade;
+		grade1 = 91.14;
+		grade2= 85.01;
+		grade3= 72;
+		grade4= 63;
+		grade5= 81.14;
+
+		averageGrade = (grade1 + grade2 + grade3 + grade4 + grade5)/5;
+		
+		if (averageGrade > 90.00 && averageGrade <= 100.00)
+			{
+			System.out.println("A: Fantastic job!");
+			}
+		else if (averageGrade > 80.00 && averageGrade < 89.99)
+			{
+			System.out.println("B: Good!");
+			}
+		else if (averageGrade > 70.00 && averageGrade < 79.99)
+			{
+			System.out.println("C: Please try more next time!");
+			}
+		else if (averageGrade <= 69.99)
+			{
+			System.out.println("F: Unfortunately you failed!");
+			}
+	}
+
+}
